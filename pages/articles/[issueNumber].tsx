@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import Link from "next/link";
 import {
   getIssue,
@@ -9,6 +8,7 @@ import {
   type IssueComment,
 } from "../../lib/issue";
 import Time from "../../components/Time";
+import CommonHead from "../../components/CommonHead";
 
 type Props = {
   issue: Issue;
@@ -18,9 +18,7 @@ type Props = {
 const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
   return (
     <article>
-      <Head>
-        <title>{issue.title}</title>
-      </Head>
+      <CommonHead title={issue.title} />
       <section>
         <header>
           <Time dateTime={issue.created_at} />

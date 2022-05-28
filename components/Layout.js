@@ -1,13 +1,17 @@
 import Head from "next/head";
 import Link from "next/link";
 
-const siteTitle = "My blog";
+const siteTitle = "YuheiNakasaka's Diary";
 
 export default function Layout({ children }) {
   return (
     <>
       <Head>
         <title>{siteTitle}</title>
+        <link
+          rel="icon"
+          href="https://yuheinakasaka.github.io/gialog-diary/favicon.ico"
+        />
       </Head>
       <header>
         <nav>
