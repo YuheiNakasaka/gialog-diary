@@ -23,9 +23,8 @@ export default function TweetButton({
       <img
         alt="tweet"
         src={`${process.env.NEXT_PUBLIC_STATIC_URL}/twitter.svg`}
-        className={css`
-          width: 3em;
-        `}
+        width={40}
+        height={40}
       />
     </a>
   );
