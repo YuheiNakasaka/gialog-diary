@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         <title>{siteTitle}</title>
         <link
           rel="icon"
-          href="https://yuheinakasaka.github.io/gialog-diary/favicon.ico"
+          href={`${process.env.NEXT_PUBLIC_STATIC_URL}/favicon.ico`}
         />
       </Head>
       <header>

@@ -3,7 +3,7 @@ import Head from "next/head";
 export default function CommonHead({
   title = "YuheiNakasaka's Diary",
   description = "YuheiNakasakaの日記です。",
-  image = "https://yuheinakasaka.github.io/gialog-diary/ogp-global.png",
+  image = `${process.env.NEXT_PUBLIC_STATIC_URL}/ogp-global.png`,
 }) {
   return (
     <Head>

@@ -9,6 +9,8 @@ import {
 } from "../../lib/issue";
 import Time from "../../components/Time";
 import CommonHead from "../../components/CommonHead";
+import TweetButton from "../../components/TweetButton";
+import { css } from "@emotion/css";
 
 type Props = {
   issue: Issue;
@@ -46,6 +48,17 @@ const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
           </section>
         </article>
       ))}
+      <aside
+        className={css`
+          margin-top: 1em;
+          text-align: center;
+        `}
+      >
+        <TweetButton
+          text={issue.title}
+          url={`${process.env.NEXT_BASE_URL}/articles/1`}
+        />
+      </aside>
     </article>
   );
 };

@@ -26,6 +26,9 @@ jobs:
           cache: npm
       - run: npm install
       - run: npm run export
+        env:
+          NEXT_BASE_URL: https://yuheinakasaka.github.io
+          NEXT_PUBLIC_STATIC_URL: https://yuheinakasaka.github.io/gialog-diary
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
