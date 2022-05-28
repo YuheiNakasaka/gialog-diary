@@ -1,0 +1,54 @@
+name: sync
+
+on:
+  issue_comment:
+    types:
+      - created
+      - deleted
+      - edited
+  issues:
+    types:
+      - closed
+      - deleted
+      - edited
+      - labeled
+      - opened
+      - pinned
+      - reopened
+      - transferred
+      - unlabeled
+      - unpinned
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+        with:
+          path: data
+          ref: data
+        continue-on-error: true
+      - uses: r7kamura/gialog-sync@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          destination_dir: .
+          disable_nojekyll: true
+          force_orphan: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: data
+          publish_dir: data
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+          cache: npm
+      - run: npm install
+      - run: npm run export
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: out
