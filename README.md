@@ -3,5 +3,5 @@
 - [x] OGP
 - [x] Tweet Button
 - [x] 検索
-- [ ] RSS
+- [x] RSS
 - [x] OGP の画像カスタマイズ

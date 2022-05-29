@@ -84,6 +84,23 @@ export async function listIssues() {
     .reverse();
 }
 
+export async function listFullIssues({ limit }: { limit: number }) {
+  let issues = await listIssues();
+  issues = issues.slice(0, limit);
+  return Promise.all(
+    issues.map(async (issue: any) => {
+      const renderedIssue = await getIssue({ issueNumber: issue.number });
+      const issueComments = await listIssueComments({
+        issueNumber: issue.number,
+      });
+      return {
+        ...renderedIssue,
+        issueComments,
+      };
+    })
+  );
+}
+
 export async function listIssueComments({
   issueNumber,
 }: {

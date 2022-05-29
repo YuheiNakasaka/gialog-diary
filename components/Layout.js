@@ -12,6 +12,11 @@ export default function Layout({ children }) {
           rel="icon"
           href={`${process.env.NEXT_PUBLIC_STATIC_URL}/favicon.ico`}
         />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          href={`${process.env.NEXT_PUBLIC_STATIC_URL}/feed.xml`}
+        />
       </Head>
       <header>
         <nav>

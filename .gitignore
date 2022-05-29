@@ -37,3 +37,5 @@ yarn-error.log*
 /data
 
 .env*
+
+/public/feed.xml

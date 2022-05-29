@@ -7,6 +7,14 @@ const nextConfig = {
   env: {
     BLOG_TITLE: "YuheiNakasaka's Diary",
   },
+  async rewrites() {
+    return [
+      {
+        destination: "/api/feed",
+        source: "/feed.xml",
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
