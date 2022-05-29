@@ -4,4 +4,4 @@
 - [x] Tweet Button
 - [x] 検索
 - [ ] RSS
-- [ ] OGP の画像カスタマイズ
+- [x] OGP の画像カスタマイズ

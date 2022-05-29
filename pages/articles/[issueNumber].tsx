@@ -18,9 +18,10 @@ type Props = {
 };
 
 const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
+  const canonicalUrl = `${process.env.NEXT_PUBLIC_STATIC_URL}/articles/1`;
   return (
     <article>
-      <CommonHead title={issue.title} image={issue.ogp_img_url} />
+      <CommonHead title={issue.title} body={issue.body} url={canonicalUrl} />
       <section>
         <header>
           <Time dateTime={issue.created_at} />
@@ -56,7 +57,7 @@ const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
       >
         <TweetButton
           text={`${issue.title} - ${process.env.BLOG_TITLE}`}
-          url={`${process.env.NEXT_BASE_URL}/articles/1`}
+          url={canonicalUrl}
         />
       </aside>
     </article>
