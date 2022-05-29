@@ -22,36 +22,9 @@ export type IssueComment = any;
 
 const dataDirectoryPath = process.env.DATA_DIRECTORY_PATH || "./data";
 
-// YAML front-matterを含む記事のサンプル
-const testContent = `---
-layout: post
-number: 1
-created_at: ${JSON.stringify(new Date().toISOString())}
-date: ${JSON.stringify(new Date().toISOString())}
-title: "Hello World"
-html_url: https://example.com
-user:
-  html_url: https://example.com
-  login: YuheiNakasaka
----
-# blog test
-This is a gialog test.
-## hoge
-### foo
-#### bar
-aaaaa
-aaaa
-aa
-
-![hoge](https://razokulover.com/razokulover-icon.png)
-`;
-
 export async function getIssue({ issueNumber }: { issueNumber: number }) {
   const filePath = `${dataDirectoryPath}/issues/${issueNumber}/issue.md`;
-  const content =
-    process.env.NODE_ENV === "development"
-      ? testContent
-      : fs.readFileSync(filePath, { encoding: "utf-8" });
+  const content = fs.readFileSync(filePath, { encoding: "utf-8" });
   const issueMatter = matter(content);
   const body = issueMatter.content;
   const bodyHTML = await renderMarkdown(body);
@@ -63,16 +36,10 @@ export async function getIssue({ issueNumber }: { issueNumber: number }) {
 }
 
 export async function listIssues() {
-  const paths =
-    process.env.NODE_ENV === "development"
-      ? [1]
-      : await glob.promise(`${dataDirectoryPath}/issues/*/issue.md`);
+  const paths = await glob.promise(`${dataDirectoryPath}/issues/*/issue.md`);
   return paths
     .map((filePath) => {
-      const content =
-        process.env.NODE_ENV === "development"
-          ? testContent
-          : fs.readFileSync(filePath, { encoding: "utf-8" });
+      const content = fs.readFileSync(filePath, { encoding: "utf-8" });
       const issueMatter = matter(content);
       const body = issueMatter.content;
       return {
