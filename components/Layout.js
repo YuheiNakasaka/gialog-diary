@@ -31,6 +31,11 @@ export default function Layout({ children }) {
                 <a>Home</a>
               </Link>
             </li>
+            <li>
+              <Link href="https://www.google.com/search?q=site:yuheinakasaka.github.io">
+                <a>Search</a>
+              </Link>
+            </li>
           </ul>
         </nav>
       </footer>
