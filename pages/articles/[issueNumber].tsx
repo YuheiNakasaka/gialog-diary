@@ -18,7 +18,7 @@ type Props = {
 };
 
 const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
-  const canonicalUrl = `${process.env.NEXT_PUBLIC_STATIC_URL}/articles/1`;
+  const canonicalUrl = `${process.env.NEXT_PUBLIC_STATIC_URL}/articles/${issue.number}`;
   return (
     <article>
       <CommonHead title={issue.title} body={issue.body} url={canonicalUrl} />
