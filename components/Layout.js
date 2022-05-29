@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-const siteTitle = "YuheiNakasaka's Diary";
+const siteTitle = process.env.BLOG_TITLE;
 
 export default function Layout({ children }) {
   return (

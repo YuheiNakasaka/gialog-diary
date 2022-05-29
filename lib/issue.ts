@@ -8,7 +8,16 @@ import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 
-export type Issue = any;
+export type Issue = {
+  title: string;
+  body: string;
+  created_at: string;
+  user: { html_url: string; login: string };
+  number: number;
+  html_url: string;
+  bodyHTML: string;
+  ogp_img_url: string;
+};
 
 export type IssueComment = any;
 
@@ -25,6 +34,7 @@ html_url: https://example.com
 user:
   html_url: https://example.com
   login: YuheiNakasaka
+ogp_img_url:  https://razokulover.com/razokulover-icon.png
 ---
 # blog test
 This is a gialog test.

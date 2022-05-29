@@ -20,7 +20,7 @@ type Props = {
 const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
   return (
     <article>
-      <CommonHead title={issue.title} />
+      <CommonHead title={issue.title} image={issue.ogp_img_url} />
       <section>
         <header>
           <Time dateTime={issue.created_at} />
@@ -55,7 +55,7 @@ const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
         `}
       >
         <TweetButton
-          text={issue.title}
+          text={`${issue.title} - ${process.env.BLOG_TITLE}`}
           url={`${process.env.NEXT_BASE_URL}/articles/1`}
         />
       </aside>
