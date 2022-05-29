@@ -11,16 +11,7 @@ export async function generateFeed(): Promise<string> {
     title: "YuheiNakasaka's diary",
   });
   let fullIssues = await listFullIssues({ limit: 20 });
-  const nowDateString = formatInTimeZone(
-    new Date(),
-    "Asia/Tokyo",
-    "yyyy-MM-dd"
-  );
   fullIssues.forEach(async (fullIssue: any) => {
-    if (fullIssue.title >= nowDateString) {
-      return;
-    }
-
     const url = `${process.env.NEXT_BASE_URL}/articles/${fullIssue.number}`;
     const _cdata = [fullIssue.bodyHTML]
       .concat(
