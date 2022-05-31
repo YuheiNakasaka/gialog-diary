@@ -11,6 +11,7 @@ import Time from "../../components/Time";
 import CommonHead from "../../components/CommonHead";
 import TweetButton from "../../components/TweetButton";
 import { css } from "@emotion/css";
+import HatenaButton from "../../components/HatenaButton";
 
 type Props = {
   issue: Issue;
@@ -56,6 +57,16 @@ const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
         `}
       >
         <TweetButton
+          text={`${issue.title} - ${process.env.BLOG_TITLE}`}
+          url={canonicalUrl}
+        />
+        <div
+          className={css`
+            display: inline-block;
+            margin-right: 1em;
+          `}
+        ></div>
+        <HatenaButton
           text={`${issue.title} - ${process.env.BLOG_TITLE}`}
           url={canonicalUrl}
         />
