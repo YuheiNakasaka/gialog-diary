@@ -37,8 +37,18 @@ export default function Layout({ children }) {
               </Link>
             </li>
             <li>
+              <Link href="https://razokulover.com/">
+                <a>About</a>
+              </Link>
+            </li>
+            <li>
               <Link href="https://www.google.com/search?q=site:yuheinakasaka.github.io">
                 <a>Search</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/feed.xml">
+                <a>RSS</a>
               </Link>
             </li>
           </ul>
