@@ -16,9 +16,14 @@ import HatenaButton from "../../components/HatenaButton";
 type Props = {
   issue: Issue;
   issueComments: Array<IssueComment>;
+  pickupArticles: Array<Issue>;
 };
 
-const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
+const ShowArticle: NextPage<Props> = ({
+  issue,
+  issueComments,
+  pickupArticles,
+}) => {
   const canonicalUrl = `${process.env.NEXT_PUBLIC_STATIC_URL}/articles/${issue.number}`;
   return (
     <article>
@@ -50,9 +55,8 @@ const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
           </section>
         </article>
       ))}
-      <aside
+      <section
         className={css`
-          margin-top: 1em;
           text-align: center;
         `}
       >
@@ -70,7 +74,31 @@ const ShowArticle: NextPage<Props> = ({ issue, issueComments }) => {
           text={`${issue.title} - ${process.env.BLOG_TITLE}`}
           url={canonicalUrl}
         />
-      </aside>
+      </section>
+      <section
+        className={css`
+          text-align: center;
+        `}
+      >
+        <p
+          className={css`
+            margin-top: 0;
+            font-weight: bold;
+          `}
+        >
+          おすすめ
+        </p>
+        <ol>
+          {pickupArticles.map((pickupArticle) => (
+            <li key={pickupArticle.number}>
+              <Time dateTime={pickupArticle.created_at} />
+              <Link href={`/articles/${pickupArticle.number}`}>
+                {pickupArticle.title}
+              </Link>
+            </li>
+          ))}
+        </ol>
+      </section>
     </article>
   );
 };
@@ -96,10 +124,19 @@ export async function getStaticProps({ params }: any) {
   const issueNumber = parseInt(params.issueNumber, 10);
   const issue = await getIssue({ issueNumber });
   const issueComments = await listIssueComments({ issueNumber });
+  const issues = await listIssues();
+  const issuesWithoutThis = issues.filter((o) => o.number !== issueNumber);
+  const pickupArticles = [];
+  for (let i = 0; i < 3; i++) {
+    const randomIndex = Math.floor(Math.random() * issuesWithoutThis.length);
+    pickupArticles.push(issuesWithoutThis[randomIndex]);
+    issuesWithoutThis.splice(randomIndex, 1);
+  }
   return {
     props: {
       issue,
       issueComments,
+      pickupArticles,
     },
   };
 }

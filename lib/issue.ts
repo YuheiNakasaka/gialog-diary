@@ -35,7 +35,12 @@ export async function getIssue({ issueNumber }: { issueNumber: number }) {
   };
 }
 
-export async function listIssues() {
+export async function listIssues(): Promise<
+  {
+    body: string;
+    [key: string]: any;
+  }[]
+> {
   const paths = await glob.promise(`${dataDirectoryPath}/issues/*/issue.md`);
   return paths
     .map((filePath) => {
