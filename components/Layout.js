@@ -17,6 +17,20 @@ export default function Layout({ children }) {
           type="application/rss+xml"
           href={`${process.env.NEXT_PUBLIC_STATIC_URL}/feed.xml`}
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-F4H77GLMNH"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-F4H77GLMNH');
+            `,
+          }}
+        />
       </Head>
       <header>
         <nav>
