@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Fri, 10 Jun 2022 11:44:13 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[「作るのにどれくらいかかりますか？」と訊かれるとイラッとしてしまう]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-06-09]]></description><link>https://yuheinakasaka.github.io/articles/7</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/7</guid><pubDate>Thu, 09 Jun 2022 12:59:25 GMT</pubDate><content:encoded><![CDATA[<p>「作るのにどれくらいかかりますか？」と訊かれるとイラッとしてしまうことがある。そうなってしまう理由についてある程度自分の中で言語化しておきたい。</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Fri, 17 Jun 2022 09:42:16 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[楽天モバイルからの移行先]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-06-17]]></description><link>https://yuheinakasaka.github.io/articles/8</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/8</guid><pubDate>Fri, 17 Jun 2022 09:41:09 GMT</pubDate><content:encoded><![CDATA[<p>楽天モバイルからの移行を検討している。前々からニュースになっているが今まで1GB以下のデータ利用で無料だったのが7月からなくなってしまうからだ。</p>
+<ul>
+<li><a href="https://www.watch.impress.co.jp/docs/news/1408944.html">楽天モバイル「0円」終了。7月からは最低1078円</a></li>
+</ul>
+<h1>要件</h1>
+<p>要件的には下記のような感じ。</p>
+<ul>
+<li>1台目のスマホとして使える</li>
+<li>電話番号は要る(電話はしない)</li>
+<li>SMS受け取れないと困る(が、送ることはない)</li>
+<li>ネットは外出時に検索等の静的サイトやアプリで使えればOK。1GB/月あれば十分。</li>
+<li>家ではWi-Fiと接続する</li>
+</ul>
+<h1>合理的シンプル290プラン</h1>
+<p>これら要件を勘案した上で移行先の選択肢を検討した。</p>
+<p>といっても候補がたくさんあってマジで訳分からんという感じだったが、いくつか調べた感じだと自分には日本通信の<a href="https://www.nihontsushin.com/plan/plansimple.html">合理的シンプル290プラン</a>が合っていそうだと思った。</p>
+<p>上記要件を全て満たした上で、ドコモ回線で1GB 290円/月というプランだ。</p>
+<p>楽天モバイルでのデータ通信はもともと1GB/月以内に収まる使い方しかしていなかった。なのでこのプランで十分である。</p>
+<p>さらに1GBを超えると+1GBごとに220円なので2GB使っても510円/月だけ。外出先でYoutubeを見たりゲームをするような人には全く向かないけどプライベートも引きこもりのリモートワーカーにはピッタリだと思う。</p>
+<p>ちなみにSIM or eSIMを選べるが初期手数料はどちらも3300円かかる(どこも同じ。7月以降の楽天モバイルx3ヶ月分)。</p>
+<h1>その他の候補</h1>
+<h2><a href="https://povo.jp/">povo</a></h2>
+<p>基本料無料。年に2回トッピング購入が必要だがそれを加味しても440円/年で済む。多分1番安い。</p>
+<p>選ばなかった理由は安すぎる回線は楽天モバイルみたいにどこかで終了しそうだな〜という気がするのと、トッピング購入がちょっと手間。</p>
+<p>auの回線だし速度は十分だと思うし(ただし0円0GBの時は128kbpsになる)、何より1日だけ使い放題にしたりとかなり細かく料金をカスタマイズできるのは面白いなとは思った。</p>
+<h2><a href="https://www.iijmio.jp/hdc/spec/">IIJmio</a></h2>
+<p>2GB 850円/月。悪くはないけど日本通信の方が安かった。</p>
+<h2><a href="https://mobile.nuro.jp/plan/">NUROモバイル</a></h2>
+<p>3GB 792円/月。結構安い方だけど、これも日本通信の方が自分にあってたので却下。</p>
+<h2><a href="https://www.ntt.com/personal/services/mobile/one/charge.html">OCNモバイルONE</a></h2>
+<p>昔使ってたやつ。0.5GB 550円/月。月額だけ見たら安いけどさすがに1GBは欲しかったし、日本通信の方が安い。</p>
+<h2><a href="https://his-mobile.com/domestic/planlp_2022splan">HIS Mobile</a></h2>
+<p>1GB 550円/月。100MB未満だと290円/月になる。安いけど100MB未満のことは流石にないので却下。あとは申し訳ないがHISという名前にやや不安があった。</p>
+<h2>その他</h2>
+<p>他にも<a href="https://ahamo.com/plan/">ahamo</a>・<a href="https://www.linemo.jp/">LINEMO</a>・<a href="https://mineo.jp/price/">mineo</a>・<a href="https://shop.uqmobile.jp/shop/">UQ Mobile</a>など色々と移行先の候補はあるが、どれも自分のユースケースには微妙で割に合わなかったので書いてない。</p>
+<p>あくまでも今回は自分の要件に合っているのはどこか？という話であり、特定のサービスを勧めたり贔屓したりしているわけではないことはご了承願いたい。データ通信のみとか逆に20GB以上プランとかだと話が変わってくると思うし。</p>]]></content:encoded></item><item><title><![CDATA[「作るのにどれくらいかかりますか？」と訊かれるとイラッとしてしまう]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-06-09]]></description><link>https://yuheinakasaka.github.io/articles/7</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/7</guid><pubDate>Thu, 09 Jun 2022 12:59:25 GMT</pubDate><content:encoded><![CDATA[<p>「作るのにどれくらいかかりますか？」と訊かれるとイラッとしてしまうことがある。そうなってしまう理由についてある程度自分の中で言語化しておきたい。</p>
 <p>そういう訊かれ方をする状況は大抵小規模なMTGで何かのプロジェクトの企画段階で起きる。OOなユーザー向けにXXという機能を追加しようかと思っているんですが、これ作るのにどれくらいかかりますか？といった具合だ。</p>
 <p>こういった質問が飛んでくる場合は決まって企画側で未確定の要素が多い。こちらとしては未確定の要素があると曖昧の見積りしかできないし、当然不測の事態を想定して多めにバッファを含めた回答になる。そうすると(おそらく)想定よりも長めの期間の見積りを返された企画者は開発にそんなに掛かるのか...と不満げな様子になってしまう。こちらは困らせたくて長めに見積もりを出しているわけではないのに開発にそんなに掛かるのか...という雰囲気を出されると開発者としての力量を疑われているように感じてしまってイラッとしてしまう。</p>
 <p>その他のパターンとしては企画の中に未知の開発が含まれている場合だ。例えばOOOというサードパーティのSDKを使ったBotシステムを作りたいんだけどもこれ作るのにどれくらいかかりますか？といった具合である。</p>
