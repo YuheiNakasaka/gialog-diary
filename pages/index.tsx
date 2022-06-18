@@ -21,7 +21,7 @@ const Home: NextPage<Props> = ({ issues }) => {
           <a href="https://razokulover.com/" target={"_blank"} rel="noreferrer">
             YuheiNakasaka
           </a>
-          の日記です。
+          の日記です。日常ネタメインで技術関連は少なめ。
         </p>
         <ol>
           {issues.map((issue) => (
