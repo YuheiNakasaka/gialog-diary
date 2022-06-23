@@ -31,7 +31,7 @@ const ShowArticle: NextPage<Props> = ({
       <section>
         <header>
           <Time dateTime={issue.created_at} />
-          <h1>{issue.title}</h1>
+          <h1 className="article-title">{issue.title}</h1>
         </header>
         <aside>
           <p>
