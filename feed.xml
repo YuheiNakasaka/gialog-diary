@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Sat, 18 Jun 2022 13:56:54 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[202カリー堂の抹茶バスクチーズケーキ]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-06-18]]></description><link>https://yuheinakasaka.github.io/articles/9</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/9</guid><pubDate>Sat, 18 Jun 2022 10:37:45 GMT</pubDate><content:encoded><![CDATA[<p><img src="https://user-images.githubusercontent.com/1421093/174434078-aca7b457-1701-4cde-a1a1-2ad6ae79acf1.JPG" alt="IMG_2791"></p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Thu, 23 Jun 2022 03:04:40 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[ソフトウェア開発におけるムダ]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-06-23]]></description><link>https://yuheinakasaka.github.io/articles/10</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/10</guid><pubDate>Thu, 23 Jun 2022 03:03:33 GMT</pubDate><content:encoded><![CDATA[<p><a href="https://misreading.chat/2022/05/12/92-software-development-waste/">Misreading Chat</a>で紹介されていた<a href="https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/papers/icse17sedano.pdf">Software Development Waste</a>という論文。</p>
+<p>こちらに載っていたTypes of Software Development Wasteというソフトウェア開発のムダについて類型されていたものが面白かったので日本語にしてみた。</p>
+<table>
+<thead>
+<tr>
+<th>ムダの説明</th>
+<th>観察</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>誤った機能・製品の構築</td>
+<td>ユーザーニーズやビジネスニーズに対応していない機能・製品を構築するコスト</td>
+<td>ユーザーの要望（ユーザー調査、検証、テストを行っていない、ユーザーフィードバックを無視している、ユーザー価値の低い機能に取り組んでいる）/ビジネスの要望（ビジネス関係者を関与させていない、関係者からのフィードバックが遅い、製品の優先度が不明確）</td>
+</tr>
+<tr>
+<td>バックログの管理ミス</td>
+<td>作業の重複、価値の低いユーザー機能の迅速化、必要なバグ修正の遅延のコスト</td>
+<td>バックログの逆転／同時に多くの機能に取り組む／作業の重複／十分に準備されていないストーリー／機能開発とバグ修正のアンバランス／テストまたは重要なバグ修正の遅延／気まぐれなスラッシング(訳が微妙)</td>
+</tr>
+<tr>
+<td>リワーク</td>
+<td>正しく行われたはずの納品物を変更するコスト</td>
+<td>技術的負債／ストーリーの変更（例：プロダクトマネージャーがストーリーの実装を変更）／完了の明確な定義がない（ストーリーが曖昧、設計モックの推測）／欠陥（テスト戦略の不備、バグの根本原因分析がない）。</td>
+</tr>
+<tr>
+<td>不必要に複雑なソリューション</td>
+<td>必要以上に複雑なソリューションを作成するコスト、機能、ユーザーインターフェース、コードを単純化する機会を逃す</td>
+<td>ユーザーの視点から見た不必要な機能の複雑さ/不必要な技術的複雑さ（コードの重複、インタラクションデザインの再利用不足、前倒しで作った複雑すぎる技術的デザイン）</td>
+</tr>
+<tr>
+<td>無関係な認知負荷</td>
+<td>精神的エネルギーを不必要に消費するコスト</td>
+<td>技術的負債に苦しんでいる／複雑または大規模なストーリー／非効率なツールや問題のあるAPI、ライブラリ、フレームワーク／不必要なコンテキストスイッチ／非効率な開発フロー／整理されていないコード</td>
+</tr>
+<tr>
+<td>心理的苦痛</td>
+<td>役に立たないストレスでチームに負担をかけるコスト</td>
+<td>チームのモラルの低下/ラッシュモード(めっちゃ急がないといけない状況)/対人関係やチーム内の対立</td>
+</tr>
+<tr>
+<td>待ち時間/マルチタスク</td>
+<td>マルチタスクに隠れがちなアイドルタイムのコスト</td>
+<td>遅いテストや信頼できないテスト/信頼できない受け入れ環境/不足する情報、人、設備/フィードバック遅延によるコンテキストスイッチ</td>
+</tr>
+<tr>
+<td>知識喪失</td>
+<td>チームがかつて知っていた情報を再取得するコスト</td>
+<td>チーム解約/知識のサイロ化</td>
+</tr>
+<tr>
+<td>非効率的なコミュニケーション</td>
+<td>不完全、不正確、誤解を招く、非効率的、または不在のコミュニケーションのコスト</td>
+<td>チームサイズが大きすぎる/非同期コミュニケーション（分散チーム、分散ステークホルダー、他のチームへの依存、チーム外の不透明なプロセス）/不均衡（会話を支配する、聞かない）/非効率な会議（集中力の欠如、レトロスキップ、毎日ブロッカーについて話さない、会議の長引き（例：長い立ち話））etc.</td>
+</tr>
+</tbody>
+</table>
+<p>開発してる時のあるあるネタまとめみたいな様相。こういうムダは確かに至る所に散見されるが、これらをどうやって取り除くかというのは中々難しい問題である。その辺の対処法についてはこの論文に書いていない。</p>
+<p>リーン開発関連の本とか読めばこの辺りのムダを取り除くためのプロセス改善の話が出てきそうなのでいくつか本を読んでみると良さそう。</p>]]></content:encoded></item><item><title><![CDATA[202カリー堂の抹茶バスクチーズケーキ]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-06-18]]></description><link>https://yuheinakasaka.github.io/articles/9</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/9</guid><pubDate>Sat, 18 Jun 2022 10:37:45 GMT</pubDate><content:encoded><![CDATA[<p><img src="https://user-images.githubusercontent.com/1421093/174434078-aca7b457-1701-4cde-a1a1-2ad6ae79acf1.JPG" alt="IMG_2791"></p>
 <p>下北沢にある<a href="https://www.instagram.com/202currydou/">202カリー堂</a>というカレー屋の抹茶バスクチーズケーキが旨い。</p>
 <p>個人的には過去に食べてきたバスクチーズケーキの中で1番好き。チーズの味が濃厚、程よいとろみ、深みのある抹茶のほろ苦さ、香ばしい焼き加減、抹茶クリームの甘味が全てマッチしてて最高。少し時間が経つと(溶けて?)柔らかくなってしまいやや口当たりが微妙になるので提供されたらすぐ食べた方が良い。</p>
 <p>店名にある通りスパイスカレー屋がメインではある(しそれ自体も普通に美味しい)んだけど、ここは抹茶のバスクチーズケーキ屋を名乗った方が良いレベル。</p>
