@@ -221,4 +221,7 @@ video {
   :root {
     --color-light: #ccc;
   }
+  a {
+    color: #41d5febf;
+  }
 }
