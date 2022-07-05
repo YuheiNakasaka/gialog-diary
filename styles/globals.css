@@ -207,3 +207,18 @@ video {
 .contains-task-list:dir(rtl) .task-list-item-checkbox {
   margin: 0 -1.6em 0.25em 0.2em;
 }
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color: #fff;
+  }
+  body {
+    background-color: #000000;
+  }
+  section {
+    background-color: #0e0e0e;
+  }
+  :root {
+    --color-light: #ccc;
+  }
+}
