@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Fri, 08 Jul 2022 09:01:14 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[鑑賞が出来ない]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-07-08]]></description><link>https://yuheinakasaka.github.io/articles/12</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/12</guid><pubDate>Fri, 08 Jul 2022 09:00:11 GMT</pubDate><content:encoded><![CDATA[<p><a href="https://amzn.to/3P9Tl3g">目の見えない人は世界をどう見ているのか</a>という本を読んだ。その中に目の見える人と目の見えない人が美術館で一緒に作品を鑑賞するソーシャルビューという試みが書いてあった。</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Sat, 16 Jul 2022 13:36:17 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[開発時のフォーム入力を少し楽にするためのChrome Extensionを作った]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-07-16]]></description><link>https://yuheinakasaka.github.io/articles/13</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/13</guid><pubDate>Sat, 16 Jul 2022 13:34:40 GMT</pubDate><content:encoded><![CDATA[<p>最近は複数のフォーム入力項目があるページをお仕事で作ったりしてる。その中でUIを作ってる時に動作確認をするんだけど数十項目の入力フォームをいちいちゼロから埋めてsubmitして...みたいなことをするのが結構だるい。この作業を良い感じに手助けしてくれるChrome Extensionを作った(というか作っているところ)。</p>
+<ul>
+<li><a href="https://github.com/YuheiNakasaka/form-fill">YuheiNakasaka/FormFill</a></li>
+</ul>
+<p>↓下記がデモとしてGoogle Formを埋めている例。Google Formは結構特殊でinput要素を全然使わずdivをボタンやチェックボックスにしているので一発入力できずに厳しいのだが90%くらいの要素は一気に埋められる。</p>
+<p><a href="https://user-images.githubusercontent.com/1421093/179355981-2729be7c-7552-4217-a9a2-1dc809997dc2.mp4">https://user-images.githubusercontent.com/1421093/179355981-2729be7c-7552-4217-a9a2-1dc809997dc2.mp4</a></p>
+<p>今回欲しかった機能としては、</p>
+<ul>
+<li>任意のフォームのセレクタとvalueを指定して一発でフォームを埋めてくれる</li>
+<li>入力パターンのセット(住所が東京の場合とか電話番号が070から始まる場合のパターンなど)をいくつも作成できる</li>
+<li>入力パターンセットを好きに組み合わせて選択してフォームを埋めてくれる</li>
+</ul>
+<p>逆に不要なものは、</p>
+<ul>
+<li>リッチなGUI</li>
+</ul>
+<p>という感じ。</p>
+<p>なので今回は入力パターンセットをまとめたJSONを指定して、それに則ってフォームを埋めてくれるようにした。開発者とか向けのデバッグでしか使わんだろうと思うしGUIは設けていない。</p>
+<p>JSON一つあれば良いことのメリットとしては、チーム内で入力項目をまとめたJSONを作りgit管理とかしておけること。テキストファイル一つにまとめられるので共有が楽なのは良い。まぁJSONを作るのがだるいのだけども...</p>
+<p>Chrome Extensionを作り始める際のボイラープレートとしては<a href="https://github.com/chibat/chrome-extension-typescript-starter">chibat/chrome-extension-typescript-starter</a>を使った。</p>
+<p>過去にいくつか作ったことはあったので基本的な開発の流れは覚えていたが細かい部分を忘れていたので<a href="https://developer.chrome.com/docs/extensions/reference/">API Docs</a>と睨めっこしたりした。</p>
+<p>ChromeでしかもPCでしか動かさなくて良いから考えるべき動作環境が限定的でその辺りは楽。</p>
+<p>あとストアへのリリースはまだしてない。一旦は雑な作りだし、リポジトリとして公開しておけばそれをビルドして自前の環境で使うこともできるので後回しにしている。開発者向けなのでなおさら。</p>
+<p>ちなみにこのExtensionはよくある住所などの自動入力のためのExtension(<a href="https://chrome.google.com/webstore/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk?gl=JP&#x26;hl=ja">AutoFill</a>みたいなやつ)ではない。</p>
+<p>あくまで複数の入力パターンを何度も実行するようなケースでしか嬉しくない。その辺りは理解しておいてほしい。</p>]]></content:encoded></item><item><title><![CDATA[鑑賞が出来ない]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-07-08]]></description><link>https://yuheinakasaka.github.io/articles/12</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/12</guid><pubDate>Fri, 08 Jul 2022 09:00:11 GMT</pubDate><content:encoded><![CDATA[<p><a href="https://amzn.to/3P9Tl3g">目の見えない人は世界をどう見ているのか</a>という本を読んだ。その中に目の見える人と目の見えない人が美術館で一緒に作品を鑑賞するソーシャルビューという試みが書いてあった。</p>
 <p>ソーシャルビューではまず見える人が作品について語る。その際に重視するのは作品の形や客観的な情報ではなく本人の主観的な感想だ。それを聞いた目の見えない人たちはどう言った作品なのか想像しながら質問したり感想を述べたりする。このインタラクティブなやり取りの中で互いに作品の意図や意味を感じ楽しむ。このような美術鑑賞の試みがソーシャルビューである。</p>
 <blockquote>
 <p>情報化の時代にわざわざ集まってみんなで鑑賞する面白さは、見えないもの、つまり「意味」の部分を共有すること</p>
