@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Thu, 21 Jul 2022 12:09:16 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[最近のWeb3への雑感]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-07-21]]></description><link>https://yuheinakasaka.github.io/articles/14</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/14</guid><pubDate>Thu, 21 Jul 2022 08:34:28 GMT</pubDate><content:encoded><![CDATA[<ul>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Thu, 21 Jul 2022 13:51:09 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[最近のWeb3への雑感]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-07-21]]></description><link>https://yuheinakasaka.github.io/articles/14</link><guid isPermaLink="true">https://yuheinakasaka.github.io/articles/14</guid><pubDate>Thu, 21 Jul 2022 08:34:28 GMT</pubDate><content:encoded><![CDATA[<ul>
 <li>Web3とは何であったか
 <ul>
 <li>トークンとコントラクトと誰からでも見える台帳を使ってなんか出来そうなことないっすかねくらいの思想または活動
@@ -56,7 +56,7 @@
 </li>
 <li>危険な一発逆転思想
 <ul>
-<li>政府のWeb3政策みたいなやつ。Web2までは世界に遅れを取ったという敗者根性に起因してると思う。</li>
+<li>政府のWeb3政策みたいなやつ。Web2.0までは世界に遅れを取ったという敗者根性に起因してると思う。</li>
 <li>Web3という概念は「ゼロからのスタートだし世界に勝てるかも」という一発逆転願望を良い具合に刺激してくれる
 <ul>
 <li>巷のエセサロンがうまくいかない人間に対してささやく甘い言葉と同じ
