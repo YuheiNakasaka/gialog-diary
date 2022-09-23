@@ -5,14 +5,14 @@ import { formatInTimeZone } from "date-fns-tz";
 export async function generateFeed(): Promise<string> {
   const rss = new RSS({
     description: "YuheiNakasakaの日記",
-    feed_url: `${process.env.NEXT_BASE_URL}/feed.xml`,
+    feed_url: `${process.env.NEXT_PUBLIC_STATIC_URL}/feed.xml`,
     generator: "YuheiNakasaka/gialog-diary",
-    site_url: `${process.env.NEXT_BASE_URL}/`,
+    site_url: `${process.env.NEXT_PUBLIC_STATIC_URL}/`,
     title: "YuheiNakasaka's diary",
   });
   let fullIssues = await listFullIssues({ limit: 20 });
   fullIssues.forEach(async (fullIssue: any) => {
-    const url = `${process.env.NEXT_BASE_URL}/articles/${fullIssue.number}`;
+    const url = `${process.env.NEXT_PUBLIC_STATIC_URL}/articles/${fullIssue.number}`;
     const _cdata = [fullIssue.bodyHTML]
       .concat(
         fullIssue.issueComments.map((issueComment: IssueComment) => {
