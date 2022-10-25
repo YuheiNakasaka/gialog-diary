@@ -114,8 +114,8 @@ async function renderMarkdown(content: string) {
     .use(remarkGithub, {
       repository: process.env.GITHUB_REPOSITORY || "github/dummy",
     })
-    .use(remarkRehype)
-    .use(rehypeStringify)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeStringify, { allowDangerousHtml: true })
     .use(remarkGfm)
     .process(content);
   return result.toString();
