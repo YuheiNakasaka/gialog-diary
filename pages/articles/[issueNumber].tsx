@@ -36,7 +36,9 @@ const ShowArticle: NextPage<Props> = ({
         <aside>
           <p>
             Posted by&nbsp;
-            <Link href={issue.user.html_url}>{issue.user.login}</Link>
+            <Link href="https://twitter.com/razokulover">
+              {issue.user.login}
+            </Link>
             &nbsp;at&nbsp;
             <Link href={issue.html_url}>{`#${issue.number}`}</Link>.
           </p>
@@ -61,7 +63,7 @@ const ShowArticle: NextPage<Props> = ({
         `}
       >
         <TweetButton
-          text={`${issue.title} - ${process.env.BLOG_TITLE}`}
+          text={`${issue.title} - ${process.env.BLOG_TITLE} @razokulover`}
           url={canonicalUrl}
         />
         <div
