@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Sun, 04 Dec 2022 00:40:26 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[どのようにしてプログラマはAIに仕事を奪われていくかの妄想]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-12-03]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/26</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/26</guid><pubDate>Sat, 03 Dec 2022 08:28:02 GMT</pubDate><content:encoded><![CDATA[<ul>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Sun, 04 Dec 2022 00:46:42 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[どのようにしてプログラマはAIに仕事を奪われていくかの妄想]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-12-03]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/26</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/26</guid><pubDate>Sat, 03 Dec 2022 08:28:02 GMT</pubDate><content:encoded><![CDATA[<ul>
 <li>先日 OpenAI から<a href="https://chat.openai.com/chat">ChatGPT</a>が Beta 公開された</li>
 <li>ChatGPT ではどんな質問に対しても何かしらの回答を生成してくれるのだが、ソースコードに関しても中々の筋が良さそうな雰囲気のコード片を生成してくれるということで少し話題になっていた</li>
 <li>こうしたプログラムを生成してくれる AI が発展していく中でどういう具合にプログラマの仕事が奪われていくのか興味がある</li>
@@ -267,11 +267,12 @@
 <li>そうなると既存データとどう整合性を保つかだけが問題になる
 <ul>
 <li>であればここだけ人間が頑張れば良いのでは...</li>
+<li>というかここまでできるならデータに関してもAI側でやってくれそう</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>もうこの段階まで来ると変更容易性だとか保守性に関する概念すら全て過去の遺物</li>
+<li>もうこの段階まで来ると変更容易性だとか<strong>保守性に関する概念すら全て過去の遺物</strong></li>
 <li>あとは品質管理だけどうするかだけど、これもテストと品質水準をまとめてAIに提出し検証してもらう感じで良いのかも。
 <ul>
 <li>ブコメなどでも書かれていたが確かにここまでくるともう人間が把握できる規模ではないかもだし、どのみち機械に頼らないといけない部分も出てきそう。</li>
