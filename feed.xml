@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Sun, 04 Dec 2022 00:46:42 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[どのようにしてプログラマはAIに仕事を奪われていくかの妄想]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-12-03]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/26</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/26</guid><pubDate>Sat, 03 Dec 2022 08:28:02 GMT</pubDate><content:encoded><![CDATA[<ul>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Sun, 04 Dec 2022 01:16:26 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[どのようにしてプログラマはAIに仕事を奪われていくかの妄想]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-12-03]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/26</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/26</guid><pubDate>Sat, 03 Dec 2022 08:28:02 GMT</pubDate><content:encoded><![CDATA[<ul>
 <li>先日 OpenAI から<a href="https://chat.openai.com/chat">ChatGPT</a>が Beta 公開された</li>
 <li>ChatGPT ではどんな質問に対しても何かしらの回答を生成してくれるのだが、ソースコードに関しても中々の筋が良さそうな雰囲気のコード片を生成してくれるということで少し話題になっていた</li>
 <li>こうしたプログラムを生成してくれる AI が発展していく中でどういう具合にプログラマの仕事が奪われていくのか興味がある</li>
@@ -281,6 +281,12 @@
 </li>
 </ul>
 </li>
+</ul>
+<h1>[追記] システム開発がなくなる世界線</h1>
+<ul>
+<li>ここまで簡単にシステム開発を適用できるようになると、そもそも世の中的に必要なソフトウェアが全ての業界に行き渡りあらかた開発され切ってしまったという世界線もあるか</li>
+<li>ある意味今でいうところの白物家電みたいな。</li>
+<li>そうなるとシステム開発という業種自体かなり下火になりそう</li>
 </ul>]]></content:encoded></item><item><title><![CDATA[活字と動画のタイパについての個人的感想]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-10-25]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/25</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/25</guid><pubDate>Tue, 25 Oct 2022 03:43:23 GMT</pubDate><content:encoded><![CDATA[<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">動画、活字と比べるとタイパ悪すぎて嫌いなクラスタ。文字ならざっと流し読みして1分で概要わかることを動画で10分解説されるとか… <a href="https://twitter.com/hashtag/%E5%B9%B4%E5%AF%84%E3%82%8A%E3%81%AE%E6%84%9F%E6%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#年寄りの感想</a> <a href="https://t.co/zNbGbrYuBa">https://t.co/zNbGbrYuBa</a></p>&mdash; Kazuho Oku (@kazuho) <a href="https://twitter.com/kazuho/status/1584263349742628864?ref_src=twsrc%5Etfw">October 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>このツイートを見て自分は活字と動画のタイパというものについて色々と思うところがあったので個人的な感想をまとめておく。</p>
 <p>まずタイパという言葉については正直初めて聞いたが、time performance(=時間効率)みたいな和製英語だと思う。なので意味としては「動画の方が活字よりタイパが良い」とは「動画の方が活字より早く情報が読み取れる/理解できる」程度の意味合いで使われていると思われる。</p>
