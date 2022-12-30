@@ -31,6 +31,11 @@ export default function Layout({ children }) {
             `,
           }}
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9116662346824543"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
       <header>
         <nav>
