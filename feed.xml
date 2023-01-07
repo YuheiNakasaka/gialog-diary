@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Fri, 06 Jan 2023 14:49:26 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[2022年の振り返りと2023年の抱負]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-01-03]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/29</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/29</guid><pubDate>Tue, 03 Jan 2023 12:54:44 GMT</pubDate><content:encoded><![CDATA[<p>2022年の振り返りと2023年の抱負を書いていく。自分向けに書いていくのでハイコンテクストになりがち。</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Sat, 07 Jan 2023 12:58:04 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[ナッシュを解約して個人情報を全て削除してもらった]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-01-07]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/30</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/30</guid><pubDate>Sat, 07 Jan 2023 12:56:48 GMT</pubDate><content:encoded><![CDATA[<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Noshだけで冷凍庫がほぼ埋まってしまった…この後くるカツオのたたき1.5kgも入る場所がない <a href="https://t.co/pYawvGBtEM">pic.twitter.com/pYawvGBtEM</a></p>&mdash; YuheiNakasaka (@razokulover) <a href="https://twitter.com/razokulover/status/1350623160425594882?ref_src=twsrc%5Etfw">January 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>ナッシュに関しては2021年くらいから少なくとも計300食以上食べてきたが、<a href="https://www.itmedia.co.jp/news/articles/2301/05/news077.html">宅食「ナッシュ」に不正アクセス、約6000件の顧客情報流出か　ランサムウェアに感染</a>というNEWSを受けていよいよ解約した方が良いかなと感じたのでやっと解約手続きをした。過去<a href="https://bunshun.jp/articles/-/57926">〈チャット入手〉NHKも紹介した宅食ベンチャー・ナッシュ取締役「デブの人は採用しないように」「権利主張が激しい」</a>というようなNEWSも出ていたが、本当ならこの時に解約しておいても良かったのかもしれない。</p>
+<p>しかしナッシュはクレカ情報や住所情報を管理画面から簡単に削除することができず、綺麗さっぱり解約するのが面倒そうという印象があってその時は億劫で手続きをしなかった。</p>
+<p>今回は本格的に今後もやばそうかもという感じがしたので重い腰を上げた形になる。</p>
+<p>ナッシュから<strong>個人情報含めて完全にアカウント削除する方法</strong>は少しコツがいる。通常の解約処理だけだと全個人情報をナッシュ側から削除できない(らしい)からである。</p>
+<p>どういうことかというとナッシュ側で保持されている個人情報は通常の「アカウント情報(とそれに紐づく住所やクレカ情報など)」と「商品に瑕疵や問題が発生した際の連絡用として通常アカウントとは別に保持されている注文履歴や連絡先の情報」という2種類ある。</p>
+<p>通常の解約処理で削除されるのは前者の方だけだ。後者は記載している通り何らかの緊急連絡用に別に保持されていて、通常のアカウント解約では削除されないとのこと(保持期間も不明)。</p>
+<p>なので後者の個人情報を削除するにはアカウント解約とは別に問い合わせフォームから全ての個人情報を削除してほしい旨を連絡する必要がある。</p>
+<p>自分の場合は下記のような文章を送った。</p>
+<pre><code>下記の情報を削除したいです。
+
+- アカウント情報
+- クレジットカード情報
+- その他個人情報全て
+
+当サービスからこれらを削除する方法をご教授願います。
+
+よろしくお願いいたします。
+</code></pre>
+<p>すると数営業日後に折り返しメールがきて、ナッシュのアカウント解約が行われた旨が伝えられ、加えて先ほどの後者の注文履歴や連絡先などの個人情報の削除が別途数日後に行われるという旨も併せて伝えられる(自分の場合は問い合わせから6日後だった)。</p>
+<p>少々面倒だがこれらの工程を踏んで晴れてナッシュから全ての個人情報を削除できる。</p>
+<p>大人なので「本当に全て削除されるのだろうか？」みたいな邪推はせず、うまく対応してくれていることを祈っている。</p>]]></content:encoded></item><item><title><![CDATA[2022年の振り返りと2023年の抱負]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-01-03]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/29</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/29</guid><pubDate>Tue, 03 Jan 2023 12:54:44 GMT</pubDate><content:encoded><![CDATA[<p>2022年の振り返りと2023年の抱負を書いていく。自分向けに書いていくのでハイコンテクストになりがち。</p>
 <h1>2022年の振り返り</h1>
 <h2>仕事面</h2>
 <p>なんとか生き延びることはできた。起業してからもう10年いかないくらい経つが、1年をなんとか生き延びられるか常に不安である。毎年今年は生きられるんだろうかと常に遠くを見つめている。</p>
@@ -1187,25 +1208,4 @@
 <p>コミュニケーションがうまくいかないとムダですよねみたいな感じ。幅広いけどもまぁそれはそう。会議に関しても不要な話で盛り上がっちゃうとか曖昧な目的始まっちゃって終わりどころが見えずダラダラ続くみたいなことはよくある気がする。</p>
 <h1>雑感</h1>
 <p>ソフトウェア開発におけるあるあるネタまとめみたいな様相である。こういうムダは確かに至る所に散見されるが、これらをどうやって取り除くかというのは中々難しい問題だ。だがその辺の対処法についてはこの論文に書いていない。</p>
-<p>この辺りのムダを取り除くためのプロセス改善の話はどういう本(や記事や論文)を読むと良いのだろうか。</p>]]></content:encoded></item><item><title><![CDATA[202カリー堂のバスクチーズケーキ]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-06-18]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/9</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/9</guid><pubDate>Sat, 18 Jun 2022 10:37:45 GMT</pubDate><content:encoded><![CDATA[<p><img src="https://user-images.githubusercontent.com/1421093/174434078-aca7b457-1701-4cde-a1a1-2ad6ae79acf1.JPG" alt="IMG_2791"></p>
-<p>下北沢にある<a href="https://www.instagram.com/202currydou/">202カリー堂</a>というカレー屋の抹茶バスクチーズケーキが旨い。</p>
-<p>個人的には過去に食べてきたバスクチーズケーキの中で1番好き。チーズの味が濃厚、程よいとろみ、深みのある抹茶のほろ苦さ、香ばしい焼き加減、抹茶クリームの甘味が全てマッチしてて最高。少し時間が経つと(溶けて?)柔らかくなってしまいやや口当たりが微妙になるので提供されたらすぐ食べた方が良い。</p>
-<p>店名にある通りスパイスカレー屋がメインではある(しそれ自体も普通に美味しい)んだけど、ここは抹茶のバスクチーズケーキ屋を名乗った方が良いレベル。</p>
-<p>その他にも抹茶のプリンもマッドな口当たりでたまらん旨さだしテリーヌも良かった。スイーツ全般ハズレがない。</p>
-<p>下北沢駅からのアクセスも良いしもちろん人気店なので休日の昼間やティータイムは最低でも1時間は並ぶがその価値はある。夜は列が落ち着いて少し早めに入れるので夜に行くのはアリかもしれない。</p>
-<p>客層は20~30代くらいの女性が9割くらいなのでその辺はおっさんが単騎で乗り込むには少し躊躇するかもしれないけど気合いで並びましょう。</p>
-<p>ちなみにスイーツ単体注文時はドリンクを注文しないといけないのでその点は注意が必要。</p><hr><h2>7,8月の新作。チョコミントバスクチーズケーキ。</h2>
-<p><img src="https://user-images.githubusercontent.com/1421093/188592406-4a2b54ee-7f97-4b02-80f4-173de1fccd87.JPG" alt="IMG_3271_re"></p>
-<p>美味しいが抹茶には遠く及ばない。チョコミントが好きという人にはハマるかも。</p>
-<h2>9月/10月の新作。ゴマバスクチーズケーキ。</h2>
-<p><img src="https://user-images.githubusercontent.com/1421093/188592416-52c944d8-d57b-4d3f-9559-d044c8e380c7.JPG" alt="IMG_3393_re"></p>
-<p>抹茶とほぼ同等レベルで美味しい。黒胡麻ソースとクリームと合わせて食べないとだめ。それぞれ単体だとそれほどでもないが合わせるとめちゃくちゃ旨くなる。</p>
-<h2>通常メニュー。プレーンバスクチーズケーキ。</h2>
-<p><img src="https://user-images.githubusercontent.com/1421093/193485285-c1b9e30c-b035-4d50-b50f-1a8fb2a12cf0.JPG" alt="IMG_3465_res"></p>
-<p>変わり種ばかり食べていたのでプレーンバスクチーズケーキは初めてだった。クリームがミルク風味で少し甘いがケーキ自体はやや酸味があるため合わせると程よい味わいになる。なかなか美味しい。コーヒーに合いそうな予感がした。シンプルなバスクチーズケーキを食べたいときは良さそう。</p>
-<h2>11月の新作。カボチャバスクチーズケーキ。</h2>
-<p><img src="https://user-images.githubusercontent.com/1421093/199662238-97cf5090-1879-41db-96a2-e545f05cc015.JPG" alt="IMG_3560_res"></p>
-<p>カボチャを使った秋らしいバスクチーズケーキ。控えめなカボチャクリームの甘さが優しくて美味しい。煮込んだカボチャペーストみたいなものが添えられておりカボチャクリームを絡めてチーズケーキを一緒に食べると甘さとしょっぱさで調和を楽しめる。周りに塗されているナッツやカボチャの種もおしゃれでケーキと絡めて食べると香ばしくて良い。とはいえ抹茶やゴマバスクチーズケーキほどの出来栄えかと言われるとそこまでの驚きはない。季節感はあって良いと思うが。そういえば+50円支払うとメイプルシロップが追加できる。これは正直あってもなくてもいいなという代物だが、それはそれとしてこのメイプルシロップは単体で美味しかったので普通にワッフルなどにつけて食べたいと思った。</p>
-<h2>12月の新作。ピスタチオバスクチーズケーキ。</h2>
-<p><img src="https://user-images.githubusercontent.com/1421093/208240728-326abfc0-9866-4ece-ab53-3d86558ac382.JPG" alt="IMG_3752_res"></p>
-<p>ピスタチオを使ったバスクチーズケーキ。チーズケーキ本体とピスタチオクリームはなめらかで渋い味わい。これ単体で食べると和菓子に近いかもしれないくらいだ。しかし周りのラズベリーソースを合わせることで視界は一変する。ラズベリーソースと合わせた瞬間に銀座でお茶するマダムから原宿でクレープを頬張る大学生くらい味が変わる。時期的にもちょうどクリスマスケーキの位置付けだからこのくらい浮き足立った味でピッタリだと思う。毎度思うがここのチーズケーキは本体・クリーム・ソースを合わせた時の調和に力を入れており、それらを合わせた時に完成するようにできている。今回も本体だけとかクリームだけで食べた時はやや弱いか？と感じたが、全て合わせた時にこれ！！となった。この辺はいつも作り込まれていて感心する。とはいえやはり10月のゴマや今や定番メニューとなった抹茶と比べると劣る。</p>]]></content:encoded></item></channel></rss>
+<p>この辺りのムダを取り除くためのプロセス改善の話はどういう本(や記事や論文)を読むと良いのだろうか。</p>]]></content:encoded></item></channel></rss>
