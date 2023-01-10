@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Tue, 10 Jan 2023 02:57:22 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[技術的なアウトプットに疲弊しないようにするコツという記事を読んで思ったこと]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-01-10]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/31</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/31</guid><pubDate>Tue, 10 Jan 2023 02:56:06 GMT</pubDate><content:encoded><![CDATA[<ul>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Tue, 10 Jan 2023 03:20:53 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[技術的なアウトプットに疲弊しないようにするコツという記事を読んで思ったこと]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-01-10]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/31</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/31</guid><pubDate>Tue, 10 Jan 2023 02:56:06 GMT</pubDate><content:encoded><![CDATA[<ul>
 <li><a href="https://blog.arthur1.dev/entry/2023/01/08/195840">技術的なアウトプットに疲弊したので振り返る</a>という記事を読んだ</li>
 <li>内容は「たくさん技術エントリを書いてきたが全然読まれないのでモチベーションが保てない」というお話</li>
 <li>気持ちはめちゃくちゃ理解できるが、少し思うところもあったので自分の考えをまとめておく</li>
@@ -70,9 +70,10 @@
 </li>
 <li>解決策
 <ul>
-<li>それなりに精神論的な善処は期待しつつ、かの筆者にかけられる言葉としては「Twitterを教えてくれ、フォローするよ。」だと思う</li>
-<li>流石に自分にとって有益でなければ全ての記事をはてブしたりRTしたりはしないけど、疲弊した気持ちをアウトプットしてくれたことはありがたいし、ではそれを読んで何か自分が無理ない範囲でできることがないか？と考えると、Twitterをフォローするくらいがちょうど良いはず</li>
-<li>そしていつかまた彼が書くであろう記事を読めるようにしておくくらいなら妥当かなと思うがどうか</li>
+<li>それなりに精神論的な善処は期待しつつ(重要)、かの筆者にかけられる自分からの言葉としては「Twitterを教えてくれ、フォローするよ。」だと思う</li>
+<li>流石に自分にとって有益でなければ記事をはてブしたりRTしたりはしないけど、疲弊した気持ちをアウトプットしてくれたことはありがたい。ではそれを読んで何か自分が無理ない範囲でできることがないか？を考えるとTwitterをフォローする、くらいは丁度良い感じの柔らか回答になる気がする。</li>
+<li>少なくとも1人はかの筆者の書いた技術記事を読む可能性のある人が増えるわけだ。フォローするだけなら自分にも負荷はない。</li>
+<li>よっぽどの内容に難があるような人でなければ技術記事を書くことは誰であれ無理ない範囲で続けてほしい。</li>
 </ul>
 </li>
 <li>その他
