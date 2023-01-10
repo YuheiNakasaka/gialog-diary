@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Tue, 10 Jan 2023 03:20:53 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[技術的なアウトプットに疲弊しないようにするコツという記事を読んで思ったこと]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-01-10]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/31</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/31</guid><pubDate>Tue, 10 Jan 2023 02:56:06 GMT</pubDate><content:encoded><![CDATA[<ul>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Tue, 10 Jan 2023 09:09:38 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[技術的なアウトプットに疲弊しないようにするコツという記事を読んで思ったこと]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-01-10]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/31</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/31</guid><pubDate>Tue, 10 Jan 2023 02:56:06 GMT</pubDate><content:encoded><![CDATA[<ul>
 <li><a href="https://blog.arthur1.dev/entry/2023/01/08/195840">技術的なアウトプットに疲弊したので振り返る</a>という記事を読んだ</li>
 <li>内容は「たくさん技術エントリを書いてきたが全然読まれないのでモチベーションが保てない」というお話</li>
 <li>気持ちはめちゃくちゃ理解できるが、少し思うところもあったので自分の考えをまとめておく</li>
@@ -12,7 +12,7 @@
 <li>テクニックの話
 <ul>
 <li>このエントリに対しての反応として先のそもそも論以外だと「自分はOOを気をつけている」「OOをターゲットにして書いている」など技術記事を書く時のコツを述べている人も多かった</li>
-<li>しかしかの筆者がエントリで<code>仮説</code>として書いている内容を見るに、Twitterで知らん人々が適当につぶやいた「技術記事を書くときのコツ」なんかはとっくの昔に本人も考えて実践してるのでは？と思った
+<li>しかしかの筆者がエントリで<strong>仮説</strong>として書いている内容を見るに、Twitterで知らん人々が適当につぶやいた「技術記事を書くときのコツ」なんかはとっくの昔に本人も考えて実践してるのでは？と思った
 <ul>
 <li>確かに<a href="https://blog.3qe.us/entry/2023/01/09/221705">去年は182本の記事を書いた人から見た、技術的なアウトプットに疲弊しないようにするコツ - Lambdaカクテル</a>で述べられているような、機械的な書き方のフォーマットのようなものはあると思うが瑣末な問題にすぎなそう</li>
 </ul>
@@ -60,8 +60,8 @@
 </li>
 <li>暖簾に腕押し
 <ul>
-<li>かのエントリでは冒頭で<code>暖簾に腕押し</code>という言葉が使われている</li>
-<li>なぜ読まれないのか？についての考察など色々書いたりしているが結局のところ<code>暖簾に腕押し</code>という言葉に全てが詰まってると思う</li>
+<li>かのエントリでは冒頭で暖簾に腕押しという言葉が使われている</li>
+<li>なぜ読まれないのか？についての考察など色々書いたりしているが結局のところ暖簾に腕押しという言葉に全てが詰まってると思う</li>
 <li>それなりに時間をかけて対象も吟味してできる限りの手は尽くした、つまり頑張ったわけだ。しかしそれがすぐには報われない。</li>
 <li>自分なりによくできたと思って作ったものが、期待に反して全く評価されないという経験は誰しも多かれ少なかれあると思う</li>
 <li>そもそも論の文脈で言えば、期待値(まともな技術記事は多くの人にすぐ読まれるという期待)が間違っているということになる</li>
