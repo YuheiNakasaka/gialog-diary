@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Sun, 05 Feb 2023 06:37:39 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[202カリー堂のバスクチーズケーキ 7,8月の新作。チョコミントバスクチーズケーキ。]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-02-05]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/34</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/34</guid><pubDate>Sun, 05 Feb 2023 06:35:56 GMT</pubDate><content:encoded><![CDATA[<p><img src="https://user-images.githubusercontent.com/1421093/188592406-4a2b54ee-7f97-4b02-80f4-173de1fccd87.JPG" alt="IMG_3271_re"></p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Sun, 05 Feb 2023 06:38:07 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[202カリー堂のバスクチーズケーキ 9月/10月の新作。ゴマバスクチーズケーキ。]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-02-05]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/35</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/35</guid><pubDate>Sun, 05 Feb 2023 06:36:53 GMT</pubDate><content:encoded><![CDATA[<p><img src="https://user-images.githubusercontent.com/1421093/188592416-52c944d8-d57b-4d3f-9559-d044c8e380c7.JPG" alt="IMG_3393_re"></p>
+<p>抹茶とほぼ同等レベルで美味しい。黒胡麻ソースとクリームと合わせて食べないとだめ。それぞれ単体だとそれほどでもないが合わせるとめちゃくちゃ旨くなる。</p>]]></content:encoded></item><item><title><![CDATA[202カリー堂のバスクチーズケーキ 7,8月の新作。チョコミントバスクチーズケーキ。]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-02-05]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/34</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/34</guid><pubDate>Sun, 05 Feb 2023 06:35:56 GMT</pubDate><content:encoded><![CDATA[<p><img src="https://user-images.githubusercontent.com/1421093/188592406-4a2b54ee-7f97-4b02-80f4-173de1fccd87.JPG" alt="IMG_3271_re"></p>
 <p>美味しいが抹茶には遠く及ばない。チョコミントが好きという人にはハマるかも。</p>]]></content:encoded></item><item><title><![CDATA[ナッシュを解約してヨシケイの夕食ネットに変えた]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-02-02]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/33</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/33</guid><pubDate>Thu, 02 Feb 2023 02:51:07 GMT</pubDate><content:encoded><![CDATA[<p>1月の頭くらいにナッシュを解約した。詳細は<a href="https://yuheinakasaka.github.io/gialog-diary/articles/30">ナッシュを解約して個人情報を全て削除してもらった</a>に書いてある。</p>
 <p>現在はフルリモートで働いており今までは平日の昼食は全てナッシュを食べていた。ご飯は家で炊いたもの、おかずはナッシュという感じ。この生活は1年以上続いていたわけだが、そのおかず部分がなくなってしまったので新たな移転先を考えなければならなくなった。</p>
 <p>自分が宅食に求めているのは下記。</p>
@@ -1136,28 +1137,4 @@
 <li>粛々と研究開発している人はたくさんいるのでそういう人達だけ相手にしていきたい</li>
 </ul>
 </li>
-</ul>]]></content:encoded></item><item><title><![CDATA[開発時のフォーム入力を少し楽にするためのChrome Extensionを作った]]></title><description><![CDATA[YuheiNakasaka's diary on 2022-07-16]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/13</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/13</guid><pubDate>Sat, 16 Jul 2022 13:34:40 GMT</pubDate><content:encoded><![CDATA[<p>最近は複数のフォーム入力項目があるページをお仕事で作ったりしてる。その中でUIを作ってる時に動作確認をするんだけど数十項目の入力フォームをいちいちゼロから埋めてsubmitして...みたいなことをするのが結構だるい。この作業を良い感じに手助けしてくれるChrome Extensionを作った(というか作っているところ)。</p>
-<ul>
-<li><a href="https://github.com/YuheiNakasaka/form-fill">YuheiNakasaka/FormFill</a></li>
-</ul>
-<p>↓下記がデモとしてGoogle Formを埋めている例。Google Formは結構特殊でinput要素を全然使わずdivをボタンやチェックボックスにしているので一発入力できずに厳しいのだが90%くらいの要素は一気に埋められる。</p>
-<p><a href="https://user-images.githubusercontent.com/1421093/179355981-2729be7c-7552-4217-a9a2-1dc809997dc2.mp4">https://user-images.githubusercontent.com/1421093/179355981-2729be7c-7552-4217-a9a2-1dc809997dc2.mp4</a></p>
-<p>今回欲しかった機能としては、</p>
-<ul>
-<li>任意のフォームのセレクタとvalueを指定して一発でフォームを埋めてくれる</li>
-<li>入力パターンのセット(住所が東京の場合とか電話番号が070から始まる場合のパターンなど)をいくつも作成できる</li>
-<li>入力パターンセットを好きに組み合わせて選択してフォームを埋めてくれる</li>
-</ul>
-<p>逆に不要なものは、</p>
-<ul>
-<li>リッチなGUI</li>
-</ul>
-<p>という感じ。</p>
-<p>なので今回は入力パターンセットをまとめたJSONを指定して、それに則ってフォームを埋めてくれるようにした。開発者とか向けのデバッグでしか使わんだろうと思うしGUIは設けていない。</p>
-<p>JSON一つあれば良いことのメリットとしては、チーム内で入力項目をまとめたJSONを作りgit管理とかしておけること。テキストファイル一つにまとめられるので共有が楽なのは良い。まぁJSONを作るのがだるいのだけども...</p>
-<p>Chrome Extensionを作り始める際のボイラープレートとしては<a href="https://github.com/chibat/chrome-extension-typescript-starter">chibat/chrome-extension-typescript-starter</a>を使った。</p>
-<p>過去にいくつか作ったことはあったので基本的な開発の流れは覚えていたが細かい部分を忘れていたので<a href="https://developer.chrome.com/docs/extensions/reference/">API Docs</a>と睨めっこしたりした。</p>
-<p>ChromeでしかもPCでしか動かさなくて良いから考えるべき動作環境が限定的でその辺りは楽。</p>
-<p>あとストアへのリリースはまだしてない。一旦は雑な作りだし、リポジトリとして公開しておけばそれをビルドして自前の環境で使うこともできるので後回しにしている。開発者向けなのでなおさら。</p>
-<p>ちなみにこのExtensionはよくある住所などの自動入力のためのExtension(<a href="https://chrome.google.com/webstore/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk?gl=JP&#x26;hl=ja">AutoFill</a>みたいなやつ)ではない。</p>
-<p>あくまで複数の入力パターンを何度も実行するようなケースでしか嬉しくない。その辺りは理解しておいてほしい。</p>]]></content:encoded></item></channel></rss>
+</ul>]]></content:encoded></item></channel></rss>
