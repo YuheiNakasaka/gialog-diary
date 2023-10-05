@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Wed, 04 Oct 2023 09:11:42 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[モンスターハンターNowを始めて10日ほど経ったので感想とかを書く]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-10-04]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/51</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/51</guid><pubDate>Wed, 04 Oct 2023 09:02:47 GMT</pubDate><content:encoded><![CDATA[<p><a href="https://monsterhunternow.com/ja">モンスターハンターNow</a>というスマホゲームが先日リリースされた。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Thu, 05 Oct 2023 02:00:42 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[モンスターハンターNowを始めて10日ほど経ったので感想とかを書く]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-10-04]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/51</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/51</guid><pubDate>Wed, 04 Oct 2023 09:02:47 GMT</pubDate><content:encoded><![CDATA[<p><a href="https://monsterhunternow.com/ja">モンスターハンターNow</a>というスマホゲームが先日リリースされた。
 大人気ゲームのモンスターハンターシリーズ(以下モンハン)がスマホ版で登場したということで、盛り上がっている。
 自分はオリジナルのモンハンをやったことがないので、今回のモンハンnowが初めてのモンハンとなった。</p>
 <p>モンハンnowはIngressやポケモンGoなどを手がけるNianticとカプコンが開発しており、Nianticお得意の位置情報を用いたシステムにモンハンを組み合わせたゲームとなっている。
@@ -94,6 +94,10 @@
 <p>この先のゲームの展開を考えるとより強い武器種や武器属性が増えたりすることもあるし、装備強化を控えた方がゼニーや素材の節約になる。なので属性武器を揃えるのはギリギリまで控えるというのはありだと思う。</p>
 <p>誰かがまとめてたが、武器1本をグレード10にするまでに最低でもゼニーだけで425,000は必要。毎日配布で3000ゼニーもらえるが武器一本で425,000ゼニーもかかることを考えると、その他装備(5箇所分)も全てグレード10にするなんてかなりの労力であることがわかる。4周目5周目以降も快適に回るためにはどのみちリアルマネーが必要になりそう。ちなみに10000ゼニーで2~3000円くらい。</p>
 <p>これらを踏まえて、自分としては4,5周目とかそれ以降はまだすぐには現実感がないから、ゼニーの消費は抑えつつではあるが2周目そこそこでゲームの醍醐味でもある装備の強化は色々と試してみてもいいんじゃないかなーと考えている。効率を食うためにゲームしてるわけではないし、この辺は突き詰めるとキリがないので。大前提として自分のペースで楽しむことが重要。</p>
+<h2>最終目標(現時点)</h2>
+<p>6周目まで進んだ猛者によると星10は現状の装備構成ではシングル攻略がかなり厳しいらしい。現時点で庶民が目指すべき最高到達点は4周目攻略までとのこと(つまり星8モンスターまで)。5周目以降に進まない方が出てくるモンスターのレベルも上がらないし良いみたい。</p>
+<p>星8モンスターを狩るにはおそらく火力としては1200前後は求められるはず。属性武器ならGR7+属性Lv5、無属性武器ならGR8Lv後半位。確かにこれなら我々庶民でも時間をかければ届きそうな感じはする。GR7->GR8へのグレードアップが結構な山だと思うので無属性で進む人は素材とゼニーの節約はできるが属性武器より狩るモンスターが増えて大変そうではある。うまいことトレードオフが効いてる。</p>
+<p>モンスターの強さが線形に伸びると仮定してるが、星10モンスタは火力1900のGR10ブロスボウでソロ無理らしいから、火力目安としては星5が500~、星6が700~、星7が1000~、星8が1300~、星9が1600~、星10が2000overみたいな曲線で伸びてるのかな。</p>
 <h1>その他色々</h1>
 <h2>狩るべきモンスター</h2>
 <p>手当たり次第にモンスターを狩るのもいいが、下手な被弾リスクを高めるのでできることなら優先度の高いモンスターだけを狩りたい。</p>
@@ -119,6 +123,9 @@
 <li><a href="https://store.monsterhunternow.com/ja-JP">WebStore</a></li>
 </ul>
 <p>基本的には回復薬かアイテムボックス容量の拡張にしか使わないと思うけどジェムを買う時は覚えておくと良い。</p>
+<p>多分2周目以降でアイテムボックスの拡張が必須になってくるので覚悟しておくこと。</p>
+<h2>連打</h2>
+<p>たくさん攻撃を入れようと思って連打してしまうことが多いんだけどこれは結構悪手。連打しすぎて回避アクションが遅れて被弾することが多い。最低限の攻撃回数だけタップして、相手が赤く光ったら落ち着いて1,2回コロリン回避すれば大体大丈夫なはず。初心者のうちは無駄にやりがちなので注意。</p>
 <h1>おわり</h1>
 <p>最近ハマっているモンハンnowについての雑感とこれから始める人向けにを書いた。最適な装備とか色々あるけども一番はハンターランクとかストーリー進捗のスピードは気にせずに楽しむのが大事だと思う。特に余暇時間や体調、住んでる場所やお財布事情など人それぞれの条件があると思うからマイペースでやればいい。別に対人戦があるわけでもないし、早く進めようがゆっくり進めようが2周目以降は有利になることなどほぼないし。</p>
 <p>理論値とか最適装備とかで攻撃力がOO%変わりますみたいな話も気になるとは思うけど、プレイスキルが高ければある程度は誤差だし気にならんようになると思うので色々と戦ってPSを磨くほうが結果的に気持ちよく狩れて楽しいと思う。</p>
