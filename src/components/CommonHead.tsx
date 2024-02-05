@@ -1,22 +1,22 @@
-import Head from "next/head";
-
 const ogpImage = (body: string) => {
-  const defaultImage = `${process.env.NEXT_PUBLIC_STATIC_URL}/ogp-global.png`;
+  const defaultImage = `${
+    import.meta.env.VITE_GIALOG_PUBLIC_STATIC_URL
+  }/ogp-global.png`;
   const image = body.match(/\((http[s]*.+\.(?:png|jpg|jpeg|gif))?\)/i);
   return image ? image[1] : defaultImage;
 };
 
 export default function CommonHead({
-  title = process.env.BLOG_TITLE,
+  title = import.meta.env.VITE_BLOG_TITLE,
   description = "日記",
   body = "",
-  url = process.env.NEXT_PUBLIC_STATIC_URL,
+  url = import.meta.env.VITE_GIALOG_PUBLIC_STATIC_URL,
 }) {
   const image = ogpImage(body);
   const isCustomOgp = !image.match(/ogp-global\.png$/);
-  const isHome = title == process.env.BLOG_TITLE;
+  const isHome = title == import.meta.env.VITE_BLOG_TITLE;
   return (
-    <Head>
+    <head>
       <title>{title}</title>
       <meta property="description" content={isHome ? description : title} />
       <meta property="og:title" content={title} />
@@ -28,6 +28,6 @@ export default function CommonHead({
         name="twitter:card"
         content={isCustomOgp ? "summary_large_image" : "summary"}
       />
-    </Head>
+    </head>
   );
 }

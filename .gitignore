@@ -38,4 +38,6 @@ yarn-error.log*
 
 .env*
 
-/public/feed.xml
+/static/index.html
+/static/articles
+/static/feed.xml

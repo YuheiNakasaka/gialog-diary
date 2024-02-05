@@ -1,6 +1,6 @@
-import { css } from "@emotion/css";
+import { css } from "hono/css";
 
-export default function TweetButton({
+export default function HatenaButton({
   url,
   text,
 }: {
@@ -9,7 +9,7 @@ export default function TweetButton({
 }) {
   const _url = encodeURIComponent(url);
   const _text = encodeURIComponent(text);
-  const link = `http://twitter.com/share?url=${_url}&text=${_text}`;
+  const link = `https://b.hatena.ne.jp/entry/panel/?url=${_url}&btitle=${_text}`;
   return (
     <a
       href={link}
@@ -22,7 +22,7 @@ export default function TweetButton({
     >
       <img
         alt="tweet"
-        src={`${process.env.NEXT_PUBLIC_STATIC_URL}/twitter.svg`}
+        src={`${import.meta.env.VITE_GIALOG_PUBLIC_STATIC_URL}/hatena.png`}
         width={40}
         height={40}
       />

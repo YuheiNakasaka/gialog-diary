@@ -20,16 +20,17 @@ jobs:
           path: data
           ref: data
         continue-on-error: true
-      - uses: actions/setup-node@v2
+      - uses: oven-sh/setup-bun@v1
         with:
-          node-version: 16.x
-          cache: npm
-      - run: npm install
-      - run: npm run export
+          bun-version: "1.0.25"
+      - run: bun install
+      - run: bun run ./build.ts
         env:
-          NEXT_BASE_URL: https://yuheinakasaka.github.io
-          NEXT_PUBLIC_STATIC_URL: https://yuheinakasaka.github.io/gialog-diary
+          NODE_ENV: production
+          VITE_GIALOG_BASE_URL: https://yuheinakasaka.github.io/gialog-diary
+          VITE_GIALOG_PUBLIC_STATIC_URL: https://yuheinakasaka.github.io/gialog-diary
+          VITE_BLOG_TITLE: Yuhei Nakasaka's Blog
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: out
+          publish_dir: static
