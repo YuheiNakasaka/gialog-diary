@@ -85,7 +85,11 @@ const Article: FC<Props> = ({ issue, issueComments, pickupArticles }) => {
           {pickupArticles.map((pickupArticle) => (
             <li key={pickupArticle.number}>
               <Time dateTime={pickupArticle.created_at} />
-              <a href={`/articles/${pickupArticle.number}`}>
+              <a
+                href={`${import.meta.env.VITE_GIALOG_BASE_URL}/articles/${
+                  pickupArticle.number
+                }`}
+              >
                 {pickupArticle.title}
               </a>
             </li>
