@@ -1,3 +1,5 @@
+import { Style } from "hono/css";
+
 const ogpImage = (body: string) => {
   const defaultImage = `${
     import.meta.env.VITE_GIALOG_PUBLIC_STATIC_URL
@@ -15,9 +17,34 @@ export default function CommonHead({
   const image = ogpImage(body);
   const isCustomOgp = !image.match(/ogp-global\.png$/);
   const isHome = title == import.meta.env.VITE_BLOG_TITLE;
+  const gaTags =
+    import.meta.env.NODE_ENV === "production" ? (
+      <>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-F4H77GLMNH"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-F4H77GLMNH');
+            `,
+          }}
+        />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9116662346824543"
+          crossOrigin="anonymous"
+        ></script>
+      </>
+    ) : null;
   return (
     <head>
       <title>{title}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="description" content={isHome ? description : title} />
       <meta property="og:title" content={title} />
       <meta property="og:type" content={isHome ? "website" : "article"} />
@@ -28,6 +55,20 @@ export default function CommonHead({
         name="twitter:card"
         content={isCustomOgp ? "summary_large_image" : "summary"}
       />
+      <head>
+        <title>{import.meta.env.VITE_BLOG_TITLE}</title>
+        <link
+          rel="icon"
+          href={`${import.meta.env.VITE_GIALOG_PUBLIC_STATIC_URL}/favicon.ico`}
+        />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          href={`${import.meta.env.VITE_GIALOG_PUBLIC_STATIC_URL}/feed.xml`}
+        />
+        <Style />
+        {gaTags}
+      </head>
     </head>
   );
 }
