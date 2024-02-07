@@ -38,6 +38,9 @@ yarn-error.log*
 
 .env*
 
+.hono
 /static/index.html
 /static/articles
 /static/feed.xml
+/static/robots.txt
+/static/sitemap.xml
