@@ -51,6 +51,7 @@ jobs:
           NODE_ENV: production
           VITE_GIALOG_BASE_URL: https://yuheinakasaka.github.io/gialog-diary
           VITE_GIALOG_PUBLIC_STATIC_URL: https://yuheinakasaka.github.io/gialog-diary
+          VITE_BASE_PATH: /gialog-diary
           VITE_BLOG_TITLE: Yuhei Nakasaka's Blog
       - uses: peaceiris/actions-gh-pages@v3
         with:
