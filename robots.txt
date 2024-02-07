@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yuheinakasaka.github.io/gialog-diary/sitemap.xml
