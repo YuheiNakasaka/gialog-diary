@@ -1,13 +1,4 @@
 {
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "bun run ./build.ts --mode production",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "hono": "4.0.0-rc.3"
-  },
   "devDependencies": {
     "@hono/vite-dev-server": "^0.5.0",
     "@hono/vite-ssg": "^0.0.1",
@@ -25,5 +16,14 @@
     "sitemap-ts": "^1.6.1",
     "vite": "^5.0.12",
     "vite-plugin-xml-loader": "^1.0.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "bun run ./build.ts --mode production",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "hono": "^4.0.0"
   }
 }
