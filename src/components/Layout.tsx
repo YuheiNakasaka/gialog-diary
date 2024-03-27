@@ -1,13 +1,11 @@
 import type { FC } from "hono/jsx";
 import { globalCss } from "../styles/global";
-import CommonHead from "./CommonHead";
 
 const Layout: FC = (props) => {
   const { children } = props;
   return (
     <>
       <html class={globalCss}>
-        <CommonHead />
         <body>
           <header>
             <nav>
