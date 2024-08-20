@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Wed, 27 Mar 2024 05:46:44 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[OpenAIのSoraへの個人的な期待]]></title><description><![CDATA[YuheiNakasaka's diary on 2024-02-19]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/61</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/61</guid><pubDate>Mon, 19 Feb 2024 14:49:17 GMT</pubDate><content:encoded><![CDATA[<p>先日OpenAIが<a href="https://openai.com/sora">Sora</a>というテキストから動画を生成するAIモデルを発表した。まだ一般公開はされていないから我々が試すことはできない。だがサイトで公開されていたAIの生成した動画とその元になったプロンプトを見てみるととにかくその精度の高さに驚かされる。</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Tue, 20 Aug 2024 09:28:39 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[近況について]]></title><description><![CDATA[YuheiNakasaka's diary on 2024-08-20]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/62</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/62</guid><pubDate>Tue, 20 Aug 2024 09:28:03 GMT</pubDate><content:encoded><![CDATA[<p>先日会社を辞めました。ここ最近は近況についても書いていなかったので改めてまとめておきたいと思います。</p>
+<p>主に退職について/現状について/転職活動についてという具合に書いていきます。</p>
+<h2>退職について</h2>
+<p>前職は代表と共同で立ち上げた会社に在籍していました。10年前に立ち上げたので約10年程関わっていたことになります。役割としては取締役及びCTOでした。偉そうな役職ですが、もちろんこれは名ばかりで実際は自分以外にやる人がいないのでやっていただけに過ぎません。実際のところ、そのほとんどは普通にゴリゴリ働くプレイヤーでした。最終的には当時立ち上げたサービスがクローズとなったためそれと共に自分は身を引いた形になります。</p>
+<p>約10年の間に立ち上げたサービスはそれなりに大きくなり、有難いことに数十人ほどの従業員を抱えるようになりました。開発チームだけでも片手で数えられる程度(もちろん10進数)ではありますが大きくなりチームで働くことの難しさを経験したりもしました。会社を中心として多くの人たちと関わることが出来たのはとても喜ばしいことですが、その反面たくさんの迷惑も掛けてしまったことは本当に申し訳なく思っています。単にこれは実力不足な自分を含めたボードメンバーの責任であり弁明の余地がありません。</p>
+<p>よく退職すると華々しい成功体験を語ったり、逆に失敗談を語り草に自嘲気味にnoteなどで語っている人がいますが個人的にはそのような振る舞いはこれまで関わってきた人達を踏み台にする厚顔無恥行為に感じてしまうのでこれ以上は控えます。ひとまず、事実としては先月退職しましたということだけに留めます。</p>
+<h2>現状について</h2>
+<p>現状はというとすでに無職ではありません。以前から業務委託でお手伝いさせていただいている会社があり、そこでWebエンジニアとして携わっています。なのでそれなりに生活はできている状況です。</p>
+<p>個人的な心境としてはこの10年間走り続けてきて燃え尽きてしまったようなところはあります。明日あなたは死にますと言われても特に何も思わない程度には「この先⚪︎⚪︎⚪︎がしたい！」といったような展望は抱けていない状況です。</p>
+<p>かといって自分自身それでメンタルが壊れてしまうほどの繊細さも無いので心身疲弊しているのかというとそういうわけでもないです。技術的なネタへの興味は人並みにあるし、美味いものへの欲もあります。</p>
+<p>特にプライベートでは1年ほど前から健康増進も兼ねてモンハンNowという位置情報ゲームを始めて、これにどハマりしてしまいました。おかげで毎日平均すると10km以上歩くような生活になっています。モンハンnowに関するコミュニティサイト(正確にはTA(タイムアタック)の共有サイト)を開発/運用したりすることで単純な趣味だけでなく技術的な面でも日常開発の良いネタになっていたりもします。</p>
+<p>あとは沢山歩いていると野良猫に出会うことが増えたのですが、その影響でこれまで興味のなかった"猫"に30代にして今更ながらハマっています。近所の野良猫達はその都度カメラに納めて日々の生活を観察したり、保護猫カフェに通って猫と交流したりするといった新しい趣味もできました。保護猫をお迎えしたいと思うようにもなり、ペット可の物件への引越しも考えています。良い物件等の情報があれば教えていただけると有り難いです。</p>
+<h2>転職活動について</h2>
+<p>現在は業務委託で働いていると書いたのですが、今後は正社員としてどこかに所属して働きたいと考えているので転職活動を始めています。</p>
+<p>先程この先の展望はまだちゃんと抱けていないと書いたものの、自分自身のソフト&#x26;ハード的な能力が役に立ち、誰かに喜んでもらえるような環境に身を置きたいなと思っています。そのためにはissueベースで開発課題を解決していくスポット的な働き方やSESのような形よりも正社員として入ってチームや組織的な課題含めたところから携われる方が根本的な部分から貢献できて肌に合っていると感じています。</p>
+<p>純粋なプレイヤーからマネージャ的な立ち回りなどポジションは特にこだわりないです。華々しい開発は勢いある若者や腕っぷしに自信のある人達に任せて、彼らがやりたくないようなソフト的な部分から下回りの改善や泥臭い開発なんかを巻き取るという役回りもあまり苦にならないタイプです(今までそういう仕事も多かった)。</p>
+<p>組織のサイズとしては小さめの組織(せいぜい100人程度)までしか在籍した経験がないので大きな企業でうまく働いていけるのかは未知数です。とはいえ結局そこは一緒に働く人たちとの相性だとは思っているので人間的な部分で合いそうであれば組織のサイズ感は問題ないと思います。</p>
+<p>結局どの仕事も何かしらの課題があってそれを解決するという基本構造は変わらずやることは変わらない気はしているので、最終的な決め手となるのは「事業領域に魅力が持てるか」「一緒に働きたい人達だとお互いに思えるか」になるはずです。</p>
+<p>職務経歴書は下記に置いておきます。</p>
+<ul>
+<li><a href="https://findy-code.io/share_profiles/NhpHiiGDiG9NA">https://findy-code.io/share_profiles/NhpHiiGDiG9NA</a></li>
+</ul>
+<h3>※注記</h3>
+<ul>
+<li>ちなみにモンハンnowが出来なくなるようなスケジュール感の会社だと厳しいかもしれないです。ふざけた話かもしれないのですが今は生活の重要な一部になっており人生における比重が高いです。</li>
+</ul>
+<h2>まとめ</h2>
+<p>退職/現状/転職活動について書きました。</p>
+<p>XのDMは開けてあるのでお声がけいただける場合はこちらにご連絡ください。</p>
+<ul>
+<li><a href="https://x.com/razokulover">https://x.com/razokulover</a></li>
+</ul>
+<p>モンハンnowのフレンドコードも置いておくのでやってる方はお気軽に申請ください。</p>
+<ul>
+<li><a href="https://github.com/YuheiNakasaka/gialog-diary/commit/436994896396"><code>4369948</code></a>
+<img src="https://github.com/user-attachments/assets/664b9322-f8a4-45c1-ad4e-1edd58ca2e59" alt="IMG_7235_res"></li>
+</ul>]]></content:encoded></item><item><title><![CDATA[OpenAIのSoraへの個人的な期待]]></title><description><![CDATA[YuheiNakasaka's diary on 2024-02-19]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/61</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/61</guid><pubDate>Mon, 19 Feb 2024 14:49:17 GMT</pubDate><content:encoded><![CDATA[<p>先日OpenAIが<a href="https://openai.com/sora">Sora</a>というテキストから動画を生成するAIモデルを発表した。まだ一般公開はされていないから我々が試すことはできない。だがサイトで公開されていたAIの生成した動画とその元になったプロンプトを見てみるととにかくその精度の高さに驚かされる。</p>
 <p>いくつかの生成結果が紹介されているが中でも<code>A petri dish with a bamboo forest growing within it that has tiny red pandas running around.</code>というプロンプトで生成されたこの動画が好き。特に現実ではありえなそうなシチュエーションという点が特に良い。
 <a href="https://cdn.openai.com/sora/videos/petri-dish-pandas.mp4">https://cdn.openai.com/sora/videos/petri-dish-pandas.mp4</a></p>
 <p>自分は人並みに妄想することが好きだ。腕が3本あったら便利だろうか？とか女性の体長が男性の2倍の世界だとどうなるか？とかあれこれと思考実験したりする。</p>
@@ -345,8 +381,4 @@ Twitter: <a href="https://twitter.com/revolukozar">@revolukozar</a></p>
 <p>第三部はウェブプログラミングに関する話。ここは流石にRubyというコンテキストだけで語るには薄くならざるを得ない気がしていて、実際DBと簡単なアーキテクチャとセキュリティの話くらいしかない。多分Rubyでウェブ開発する人の多くはRails開発者だと思うので最近だと<a href="https://amzn.to/3VxI1T2">Sustainable Web Development with Ruby on Rails</a>あたりが思想は独特だが面白いのでおすすめ(だいぶ好き嫌い分かれる内容だとは思う...)。その時の感想は<a href="https://yuheinakasaka.github.io/gialog-diary/articles/3">Sustainable Web Development with Ruby on Railsと悲しい性</a>に書いた。</p>
 <p>とまぁこんな感じで、全体通して個人的には第一部がクライマックスで、第二部は14章のプロファイリングとベンチマーク全般の記述と図書館に呪いの本を実装するギャグみたいなプラグインを書いていく8章の話が面白かったという感想。</p>
 <p>誰彼構わず万人に薦めるのはどうか？という気もするが、中級レベルの開発者がこういう考え方もあるよな〜とクリティカルに読みつつ見識深めていくのが良い読み方なのかなと思った。</p>
-<p>先にもあげたレビューを読んだり、<a href="https://scrapbox.io/kensan-ruby/">研鑽Rubyプログラミング</a>という日本語サポートページがScrapboxにあるのでこちらを見たりしながら、一つでも気になる部分があれば手に取ってみるといいんじゃないでしょうか。</p>]]></content:encoded></item><item><title><![CDATA[202カリー堂の4月17日からの新作。紅茶バスクチーズケーキ。]]></title><description><![CDATA[YuheiNakasaka's diary on 2023-04-26]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/42</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/42</guid><pubDate>Wed, 26 Apr 2023 14:39:19 GMT</pubDate><content:encoded><![CDATA[<p><img src="https://user-images.githubusercontent.com/1421093/234608717-495ed047-a5b4-4ede-8b9e-956eb691daa9.JPG" alt="IMG_4297_res"></p>
-<p>今回の新作バスクチーズケーキは紅茶。昨年も目に入ってはいたが抹茶バスクチーズケーキの美味しさに目を奪われて食べ損ねてしまっていた。だから満を持しての試食だ。</p>
-<p>感想としてはう〜〜〜〜んという感じ。紅茶が香って美味しいのは美味しいのだけど、何というかパンチが足りないというか、カレーを食べた後に食べるデザートとして弱いなぁという気持ちになった。ケーキに乗っているクリームも優しすぎるので今ひとつ味のアクセントになりきれていない。こう何というか、クリームがシナモンとかチャイティーっぽいスパイスが練り込んであればまた複雑な味になって美味しいのかもしれないけど、紅茶単体だと繊細すぎてやや濃厚チーズクリームに負けちゃっていたな...。いや確かに美味い方だけども惜しい〜という感じでした。</p>
-<p>これで一通り昨年から食べ続けてきたバスクチーズケーキはコンプリートしたはず。</p>
-<p>次回の新作に期待したいところ。</p>]]></content:encoded></item></channel></rss>
+<p>先にもあげたレビューを読んだり、<a href="https://scrapbox.io/kensan-ruby/">研鑽Rubyプログラミング</a>という日本語サポートページがScrapboxにあるのでこちらを見たりしながら、一つでも気になる部分があれば手に取ってみるといいんじゃないでしょうか。</p>]]></content:encoded></item></channel></rss>
