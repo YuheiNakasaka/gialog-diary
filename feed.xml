@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Tue, 20 Aug 2024 14:38:24 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[近況について]]></title><description><![CDATA[YuheiNakasaka's diary on 2024-08-20]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/62</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/62</guid><pubDate>Tue, 20 Aug 2024 09:28:03 GMT</pubDate><content:encoded><![CDATA[<p>先日会社を辞めました。ここ最近は近況についても書いていなかったので改めてまとめておきたいと思います。</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[YuheiNakasaka's diary]]></title><description><![CDATA[YuheiNakasakaの日記]]></description><link>https://yuheinakasaka.github.io/gialog-diary/</link><generator>YuheiNakasaka/gialog-diary</generator><lastBuildDate>Tue, 03 Sep 2024 05:47:40 GMT</lastBuildDate><atom:link href="https://yuheinakasaka.github.io/gialog-diary/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[近況について]]></title><description><![CDATA[YuheiNakasaka's diary on 2024-08-20]]></description><link>https://yuheinakasaka.github.io/gialog-diary/articles/62</link><guid isPermaLink="true">https://yuheinakasaka.github.io/gialog-diary/articles/62</guid><pubDate>Tue, 20 Aug 2024 09:28:03 GMT</pubDate><content:encoded><![CDATA[<p>先日会社を辞めました。ここ最近は近況についても書いていなかったので改めてまとめておきたいと思います。</p>
 <p>主に退職について/現状について/転職活動についてという具合に書いていきます。</p>
 <h2>退職について</h2>
 <p>前職は代表と共同で立ち上げた会社に在籍していました。10年前に立ち上げたので約10年程関わっていたことになります。役割としては取締役及びCTOでした。偉そうな役職ですが、もちろんこれは名ばかりで実際は自分以外にやる人がいないのでやっていただけに過ぎません。実際のところ、そのほとんどは普通にゴリゴリ働くプレイヤーでした。最終的には当時立ち上げたサービスがクローズとなったためそれと共に自分は身を引いた形になります。</p>
@@ -11,6 +11,7 @@
 <p>特にプライベートでは1年ほど前から健康増進も兼ねてモンハンNowという位置情報ゲームを始めて、これにどハマりしてしまいました。おかげで毎日平均すると10km以上歩くような生活になっています。モンハンnowに関するコミュニティサイト(正確にはTA(タイムアタック)の共有サイト)を開発/運用したりすることで単純な趣味だけでなく技術的な面でも日常開発の良いネタになっていたりもします。</p>
 <p>あとは沢山歩いていると野良猫に出会うことが増えたのですが、その影響でこれまで興味のなかった"猫"に30代にして今更ながらハマっています。近所の野良猫達はその都度カメラに納めて日々の生活を観察したり、保護猫カフェに通って猫と交流したりするといった新しい趣味もできました。保護猫をお迎えしたいと思うようにもなり、ペット可の物件への引越しも考えています。良い物件等の情報があれば教えていただけると有り難いです。</p>
 <h2>転職活動について</h2>
+<p><strong>追記</strong> こちら一旦募集は締め切りました</p>
 <p>現在は業務委託で働いていると書いたのですが、今後は正社員としてどこかに所属して働きたいと考えているので転職活動を始めています。</p>
 <p>先程この先の展望はまだちゃんと抱けていないと書いたものの、自分自身のソフト&#x26;ハード的な能力が役に立ち、誰かに喜んでもらえるような環境に身を置きたいなと思っています。そのためにはissueベースで開発課題を解決していくスポット的な働き方やSESのような形よりも正社員として入ってチームや組織的な課題含めたところから携われる方が根本的な部分から貢献できて肌に合っていると感じています。</p>
 <p>純粋なプレイヤーからマネージャ的な立ち回りなどポジションは特にこだわりないです。華々しい開発は勢いある若者や腕っぷしに自信のある人達に任せて、彼らがやりたくないようなソフト的な部分から下回りの改善や泥臭い開発なんかを巻き取るという役回りもあまり苦にならないタイプです(今までそういう仕事も多かった)。</p>
@@ -26,7 +27,8 @@
 </ul>
 <h2>まとめ</h2>
 <p>退職/現状/転職活動について書きました。</p>
-<p>XのDMは開けてあるのでお声がけいただける場合はこちらにご連絡ください。全てに返信できるかはわからないですがご了承ください。</p>
+<p><strong>追記</strong> こちら一旦募集は締め切りました
+XのDMは開けてあるのでお声がけいただける場合はこちらにご連絡ください。全てに返信できるかはわからないですがご了承ください。</p>
 <ul>
 <li><a href="https://x.com/razokulover">https://x.com/razokulover</a></li>
 </ul>
