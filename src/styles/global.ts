@@ -38,7 +38,7 @@ export const globalCss = css`
   section {
     background-color: #fff;
     margin-bottom: 2px;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
   }
 
   nav a {
@@ -96,6 +96,13 @@ export const globalCss = css`
     font-size: 0.8rem;
   }
 
+  main article {
+    font-family: Inter,GenJyuuGothicL,Hiragino Kaku Gothic ProN,Hiragino Sans,BIZ UDPGothic,Meiryo,sans-serif
+    font-size: 1.06rem;
+    letter-spacing: .02em;
+    line-height: 2.15;
+  }
+
   /* The followings are mainly for article. */
 
   h1 {
@@ -144,7 +151,7 @@ export const globalCss = css`
 
   ol,
   ul {
-    padding-left: 1.5rem;
+    padding-left: 1rem;
   }
 
   code {

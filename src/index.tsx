@@ -49,8 +49,10 @@ app.get(
     const pickupArticles = [] as Issue[];
     for (let i = 0; i < 3; i++) {
       const randomIndex = Math.floor(Math.random() * issuesWithoutThis.length);
-      pickupArticles.push(issuesWithoutThis[randomIndex]);
-      issuesWithoutThis.splice(randomIndex, 1);
+      if (issuesWithoutThis[randomIndex]) {
+        pickupArticles.push(issuesWithoutThis[randomIndex]);
+        issuesWithoutThis.splice(randomIndex, 1);
+      }
     }
 
     return c.render(

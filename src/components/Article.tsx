@@ -32,7 +32,9 @@ const Article: FC<Props> = ({ issue, issueComments, pickupArticles }) => {
             <a href={issue.html_url}>{`#${issue.number}`}</a>.
           </p>
         </aside>
-        <div dangerouslySetInnerHTML={{ __html: issue.bodyHTML }}></div>
+        <main
+          dangerouslySetInnerHTML={{ __html: issue.bodyHTML }}
+        ></main>
       </section>
       {issueComments.map((issueComment) => (
         <article key={issueComment.id}>
